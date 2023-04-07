@@ -2,7 +2,7 @@
 
 /******************************
  ******************************
- A simple php programm using 
+ A simple php program using 
  encapsulation for how much a
  person should pay whiling 
  shareing bills with others

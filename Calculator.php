@@ -45,5 +45,5 @@ class Calculator
     }
 }
 
-$calc = new Calculator(10, 2, "sub");
+$calc = new Calculator(10, 2, "div");
 $calc->calculator();

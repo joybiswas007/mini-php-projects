@@ -45,5 +45,7 @@ class Calculator
     }
 }
 
-$calc = new Calculator(10, 2, "div");
+$calc = new Calculator(readline("Enter first number: "), 
+ readline("Enter next number: "),
+ readline("Choose an operation \"add\", \"sub\", \"multi\", \"div\": "));
 $calc->calculator();

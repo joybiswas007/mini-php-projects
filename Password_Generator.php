@@ -11,4 +11,4 @@ function password_generator($length)
    return substr(str_shuffle($data), 0, $length);
 }
 
-echo "Your Password is: " . password_generator(40) . PHP_EOL;
+echo "Your Password is: " . password_generator(readline("Choose a length for your password: ")) . PHP_EOL;

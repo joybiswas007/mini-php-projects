@@ -32,5 +32,7 @@
 		}
 	}
 
-$bill1 = new Bill(210.58, 7, 10);
+$bill1 = new Bill(readline("Enter the total amount :$ "),
+ readline("How many persons to divide the bills?: "), 
+ readline("How many percent tip you want to give? 10/12/15: "));
 echo "Bill per person:: " . $bill1->billWithTips() . "$" . PHP_EOL;

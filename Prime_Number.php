@@ -27,5 +27,5 @@ class Prime
     }
 }
 
-$prime = new Prime(24);
+$prime = new Prime(readline("Enter the number you want to check: "));
 $prime->prime_checker();

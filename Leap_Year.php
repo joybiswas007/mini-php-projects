@@ -30,5 +30,5 @@ class LeapYear
    }
 }
 
-$leap = new LeapYear(2005);
+$leap = new LeapYear(readline("Enter the year you want to check: "));
 $leap->leapYear();

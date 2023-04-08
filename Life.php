@@ -36,5 +36,5 @@ class Life {
 	}
 }
 
-$life = new Life(21);
+$life = new Life(readline("Enter your current age: "));
 echo "You have " . $life->daysRemaining() . " days" . ", " . $life->weeksRemaining() . " weeks" . ", " . "and " . $life->monthsRemaining() . " months left." . PHP_EOL;

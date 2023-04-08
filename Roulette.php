@@ -36,5 +36,5 @@ class Roulette
     }
 }
 
-$roulette = new Roulette("A, B, C, X, Y, Z");
+$roulette = new Roulette(readline("Enter names separate them with commas: "));
 $roulette->roulette();
